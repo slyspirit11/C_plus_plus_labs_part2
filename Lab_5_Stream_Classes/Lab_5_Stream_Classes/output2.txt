@@ -1,0 +1,5 @@
+Hero,hod
+Елисей Игнатьевич,student
+Mister susquatch,student
+Виктор Носков,professor
+Серега Дементьев,professor
