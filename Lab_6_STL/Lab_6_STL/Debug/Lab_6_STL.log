@@ -1,0 +1,94 @@
+﻿  Lab_6_STL.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\utility(249,16): warning C4244: инициализация: преобразование "_Ty" в "_Ty1", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=const float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(707): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const float,Employee>::pair<int,Employee,0>(std::pair<int,Employee> &&) noexcept(false)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(714): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const float,Employee>::pair<int,Employee,0>(std::pair<int,Employee> &&) noexcept(false)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtree(811): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<int,Employee>>(_Alloc &,_Objty *const ,std::pair<int,Employee> &&)"
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const float,Employee>,std::_Default_allocator_traits<std::allocator<std::pair<const float,Employee>>>::void_pointer>>,
+              _Ty=std::pair<const float,Employee>,
+              _Objty=std::pair<const float,Employee>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtree(812): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<int,Employee>>(_Alloc &,_Objty *const ,std::pair<int,Employee> &&)"
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const float,Employee>,std::_Default_allocator_traits<std::allocator<std::pair<const float,Employee>>>::void_pointer>>,
+              _Ty=std::pair<const float,Employee>,
+              _Objty=std::pair<const float,Employee>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtree(1007): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const float,Employee>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const float,Employee>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const float,Employee>>,
+              _Ty=std::pair<int,Employee>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const float,Employee>,std::_Default_allocator_traits<std::allocator<std::pair<const float,Employee>>>::void_pointer>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtree(1023): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const float,Employee>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const float,Employee>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const float,Employee>>,
+              _Ty=std::pair<int,Employee>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const float,Employee>,std::_Default_allocator_traits<std::allocator<std::pair<const float,Employee>>>::void_pointer>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtree(1044): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_node<std::pair<const float,Employee>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::_Emplace<std::pair<int,Employee>>(std::pair<int,Employee> &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const float,Employee>>,
+              _Kty=float,
+              _Ty=Employee,
+              _Pr=std::less<float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtree(1045): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_node<std::pair<const float,Employee>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::_Emplace<std::pair<int,Employee>>(std::pair<int,Employee> &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const float,Employee>>,
+              _Kty=float,
+              _Ty=Employee,
+              _Pr=std::less<float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\map(500): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const float,Employee>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::emplace<std::pair<int,Employee>>(std::pair<int,Employee> &&)"
+          with
+          [
+              _Kty=float,
+              _Ty=Employee,
+              _Pr=std::less<float>,
+              _Alloc=std::allocator<std::pair<const float,Employee>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\map(501): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const float,Employee>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::emplace<std::pair<int,Employee>>(std::pair<int,Employee> &&)"
+          with
+          [
+              _Kty=float,
+              _Ty=Employee,
+              _Pr=std::less<float>,
+              _Alloc=std::allocator<std::pair<const float,Employee>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\map(512): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const float,Employee>>>> std::multimap<float,Employee,std::less<float>,std::allocator<std::pair<const float,Employee>>>::emplace<_Ty>(_Ty &&)"
+          with
+          [
+              _Ty=std::pair<int,Employee>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\map(512): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const float,Employee>>>> std::multimap<float,Employee,std::less<float>,std::allocator<std::pair<const float,Employee>>>::emplace<_Ty>(_Ty &&)"
+          with
+          [
+              _Ty=std::pair<int,Employee>
+          ]
+C:\Users\Emperor\UTMN\ТРПО\Lab_6_STL\Lab_6_STL\Lab_6_STL.cpp(346): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const float,Employee>>>> std::multimap<float,Employee,std::less<float>,std::allocator<std::pair<const float,Employee>>>::insert<std::pair<int,Employee>,0>(_Valty &&)"
+          with
+          [
+              _Valty=std::pair<int,Employee>
+          ]
+C:\Users\Emperor\UTMN\ТРПО\Lab_6_STL\Lab_6_STL\Lab_6_STL.cpp(346): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const float,Employee>>>> std::multimap<float,Employee,std::less<float>,std::allocator<std::pair<const float,Employee>>>::insert<std::pair<int,Employee>,0>(_Valty &&)"
+          with
+          [
+              _Valty=std::pair<int,Employee>
+          ]
+C:\Users\Emperor\UTMN\ТРПО\Lab_6_STL\Lab_6_STL\Lab_6_STL.cpp(354): warning C4172: возвращение адреса локальной или временной переменной : m
+  Lab_6_STL.vcxproj -> C:\Users\Emperor\UTMN\ТРПО\Lab_6_STL\Debug\Lab_6_STL.exe
