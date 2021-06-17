@@ -1,0 +1,18 @@
+﻿  Lab_3_Templates.cpp
+C:\Users\Emperor\UTMN\ТРПО\Lab_3_Templates\Lab_3_Templates\templates.cpp(8,11): warning C4244: инициализация: преобразование "numType" в "int", возможна потеря данных
+          with
+          [
+              numType=double
+          ]
+C:\Users\Emperor\UTMN\ТРПО\Lab_3_Templates\Lab_3_Templates\Lab_3_Templates.cpp(95): message : выполняется компиляция ссылки на экземпляр шаблон функции "int getNOD<double>(numType,numType)"
+          with
+          [
+              numType=double
+          ]
+C:\Users\Emperor\UTMN\ТРПО\Lab_3_Templates\Lab_3_Templates\templates.cpp(8,18): warning C4244: инициализация: преобразование "numType" в "int", возможна потеря данных
+          with
+          [
+              numType=double
+          ]
+Lab_3_Templates.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl eat(class animal<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &)" (?eat@@YAXAAV?$animal@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@@Z) в функции _main.
+C:\Users\Emperor\UTMN\ТРПО\Lab_3_Templates\Debug\Lab_3_Templates.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
